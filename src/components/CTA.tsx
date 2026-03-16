@@ -13,7 +13,7 @@ const CTA: React.FC = () => {
           <p>전화 한 통, 메시지 한 번으로 간편하게 시작할 수 있습니다.</p>
           <div className="cta-actions">
             <button className="btn-cta-white" onClick={() => navigate('/contact')}>배송 문의하기</button>
-            <a href="tel:010-XXXX-XXXX" className="cta-tel">010-3833-8164</a>
+            <a href="tel:010-3833-8164" className="cta-tel">010-3833-8164</a>
           </div>
         </div>
       </div>

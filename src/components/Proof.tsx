@@ -10,7 +10,7 @@ const Proof: React.FC = () => {
         </div>
         <div className="proof-text animate-fade-in">
           <span className="badge">신뢰의 배송</span>
-          <h2>현대택배의 시스템과 <br />황선행의 진심</h2>
+          <h2>롯데택배의 시스템과 <br />황선행의 진심</h2>
           <p>
             단순한 배송을 넘어 비즈니스의 성공까지 생각합니다. 
             수년간 쌓아온 무사고 경력과 지역 내 높은 신뢰도를 바탕으로 

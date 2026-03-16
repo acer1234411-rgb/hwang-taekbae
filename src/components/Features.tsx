@@ -25,7 +25,7 @@ const Features: React.FC = () => {
       <div className="container">
         <div className="section-header">
           <h2>왜 황선행 기사인가요?</h2>
-          <p>현대택배의 전문 시스템과 기사의 책임감이 만났습니다.</p>
+          <p>롯데택배의 전문 시스템과 기사의 책임감이 만났습니다.</p>
         </div>
         <div className="features-grid">
           {features.map((f, i) => (

@@ -13,7 +13,7 @@ const Header: React.FC = () => {
     <header className="header glass">
       <div className="container header-content">
         <Link to="/" className="logo" onClick={closeMenu}>
-          <span className="brand-primary">현대택배</span>
+          <span className="brand-primary">롯데택배</span>
           <span className="brand-secondary">황선행</span>
         </Link>
         <button className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu} aria-label="Toggle menu">
