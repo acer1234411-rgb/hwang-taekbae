@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             <span className="highlight">맞춤형 배송</span> 파트너
           </h1>
           <p className="hero-subtitle">
-            정기 물량부터 긴급 특송까지, 현대택배 황선행 기사가 <br />
+            정기 물량부터 긴급 특송까지, 롯데택배 황선행 기사가 <br />
             책임지고 신속하게 배송해 드립니다.
           </p>
           <div className="hero-btns">
