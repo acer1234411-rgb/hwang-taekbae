@@ -16,11 +16,11 @@ const Sub4Contact: React.FC = () => {
           <section className="contact-info-section">
             <h2>📞 직통 연락처</h2>
             <div className="contact-methods">
-              <a href="tel:010-XXXX-XXXX" className="contact-method-card">
+              <a href="tel:010-3833-8164" className="contact-method-card">
                 <div className="icon">📞</div>
                 <div>
                   <h4>전화 상담</h4>
-                  <p>010-XXXX-XXXX</p>
+                  <p>010-3833-8164</p>
                 </div>
               </a>
               <div className="contact-method-card">

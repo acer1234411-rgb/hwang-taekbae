@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <h3>현대택배 황선행</h3>
           <p>지역 소상공인과 함께하는 최고의 배송 파트너</p>
           <div className="contact-details">
-            <span><strong>전화:</strong> 010-XXXX-XXXX</span>
+            <span><strong>전화:</strong> 010-3833-8164</span>
             <span><strong>카카오톡:</strong> @hwang_delivery</span>
           </div>
         </div>
