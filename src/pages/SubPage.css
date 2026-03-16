@@ -20,8 +20,9 @@
   opacity: 0.8;
 }
 
-.sub-content {
-  padding-top: 90px;
+/* Spacing fix applied: 2026-03-16 */
+.sub-page .sub-content {
+  padding-top: 90px !important;
 }
 
 .detail-section {
