@@ -1,0 +1,58 @@
+.cta-section {
+  padding: 100px 0;
+  background-color: var(--bg-color);
+}
+
+.cta-card {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, #2b4b7a 100%);
+  border-radius: 30px;
+  padding: 80px 40px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 20px 50px rgba(29, 53, 87, 0.3);
+}
+
+.cta-card h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.cta-card p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+.cta-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-cta-white {
+  background-color: white;
+  color: var(--secondary-color);
+  padding: 18px 45px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  transition: var(--transition);
+}
+
+.btn-cta-white:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(255,255,255,0.2);
+}
+
+.cta-tel {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .cta-card h2 {
+    font-size: 2rem;
+  }
+}

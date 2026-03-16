@@ -1,0 +1,94 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+
+:root {
+  --primary-color: #FDB913; /* Hyundai Yellow */
+  --secondary-color: #1D3557; /* Navy Blue */
+  --accent-color: #E63946;
+  --bg-color: #F8F9FA;
+  --text-dark: #212529;
+  --text-light: #F8F9FA;
+  --font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  --transition: all 0.3s ease;
+  --header-height: 80px;
+  --container-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: var(--font-family);
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+/* CTA Button */
+.btn-cta {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  box-shadow: 0 4px 15px rgba(253, 185, 19, 0.3);
+  transition: var(--transition);
+  display: inline-block;
+}
+
+.btn-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(253, 185, 19, 0.5);
+  background-color: #fcae00;
+}

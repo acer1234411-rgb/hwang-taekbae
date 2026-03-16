@@ -1,0 +1,8 @@
+HERO_BG: https://loremflickr.com/1600/900/delivery,truck
+FEATURE_LOGISTICS: https://loremflickr.com/1600/900/logistics,warehouse
+SERVICE_TRUCK: https://loremflickr.com/600/400/fast,truck
+PROOF_HANDSHAKE: https://loremflickr.com/800/600/partnership,handshake
+SUB1_BOX: https://loremflickr.com/600/400/delivery,box
+SUB2_FAST: https://loremflickr.com/600/400/fast,delivery
+SUB3_DRIVER: https://loremflickr.com/800/600/delivery,driver
+SUB4_CONTACT: https://loremflickr.com/800/600/contact,phone
